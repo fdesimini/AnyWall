@@ -33,7 +33,7 @@ PAWSettingsViewControllerDelegate>
 
     // ****************************************************************************
     // Parse initialization
-    [Parse setApplicationId:@"APPLICATION_ID" clientKey:@"CLIENT_KEY"];
+    [Parse setApplicationId:@"5nH2icjfHMFysOlNRcGFwrKQ5KBWuuApXzFpzULC" clientKey:@"KfHR6wkpq2K8Vj5TGrjKwZriIhbdIUcfd8Z3NwR4"];
     // ****************************************************************************
 
     // Set the global tint on the navigation bar
@@ -63,6 +63,11 @@ PAWSettingsViewControllerDelegate>
     [self.window makeKeyAndVisible];
 
 	[[PAWConfigManager sharedManager] fetchConfigIfNeeded];
+	
+	//implemnet Facebook here
+	
+	
+	
 
     return YES;
 }
